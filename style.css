@@ -117,3 +117,30 @@ hr{
 
 
 
+
+  /* last */
+
+  .pic img{
+    width: 266px;
+    height: 141px;
+  }
+  .icons{
+    display: flex;
+    gap: 10px;
+  }
+
+  .full{
+    color: #FFC014;;
+  }
+  .emty{
+    color: #AEAEAE;;
+  }
+  .hour{
+    background: #FFE4E8;
+    border-radius: 14.6913px;
+  }
+  .clo{
+    color: #FF4A60;
+  }
+
+
