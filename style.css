@@ -86,6 +86,7 @@ hr{
  section{
     display: flex;
     justify-content: center;
+    margin-bottom: 30px;
  }
  .last-site{
     background: #f6ecec;
@@ -112,6 +113,9 @@ hr{
     .blog-title{
         font-size: 12px;
         
+    }
+    .tan{
+        flex-direction: column;
     }
   }
 
@@ -141,6 +145,10 @@ hr{
   }
   .clo{
     color: #FF4A60;
+  }
+  .tan{
+    display: flex;
+    gap: 10px;
   }
 
 
