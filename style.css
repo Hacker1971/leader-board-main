@@ -96,5 +96,24 @@ hr{
 
  }
 
+ /* meadia qurea */
+ @media only screen and (max-width: 576px) {
+
+    .top-site{
+        width: 100%;
+        margin-top: 0;
+    }
+    .names{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .blogs{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .blog-title{
+        font-size: 12px;
+        
+    }
+  }
+
 
 
