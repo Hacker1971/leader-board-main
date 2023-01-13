@@ -118,6 +118,18 @@ hr{
         flex-direction: column;
     }
   }
+  @media only screen and (min-width: 577px) and (max-width:992px) {
+    .tan{
+        flex-direction: column;
+    }
+    .blogs{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .names{
+        grid-template-columns: repeat(2,1fr);
+    }
+
+  }
 
 
 
@@ -131,6 +143,8 @@ hr{
   .icons{
     display: flex;
     gap: 10px;
+    justify-content: center;
+    align-items: center;
   }
 
   .full{
@@ -142,6 +156,7 @@ hr{
   .hour{
     background: #FFE4E8;
     border-radius: 14.6913px;
+    padding: 4.5px;
   }
   .clo{
     color: #FF4A60;
@@ -149,6 +164,23 @@ hr{
   .tan{
     display: flex;
     gap: 10px;
+  }
+  .lasts{
+    /* filter: drop-shadow(0px 5.34229px 13.3557px rgba(0, 0, 0, 0.05)); */
+    background: #FFFFFF;
+    border-radius: 10px;
+    /* padding: 15px; */
+  }
+  .rea{
+    margin-left: 8px;
+  }
+  .com{
+    color: #1E1E1E;
+  }
+  .ree{
+    color: #ED6B4F;
+    font-weight: 400;
+    font-size: 14.6913px;
   }
 
 
